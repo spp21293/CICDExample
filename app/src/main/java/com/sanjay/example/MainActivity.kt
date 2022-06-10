@@ -21,7 +21,7 @@ class MainActivity : AppCompatActivity() {
         greetingTextView = findViewById(R.id.greetingTextView)
 
         sayHelloButton.setOnClickListener {
-            greetingTextView.text = "Hello ${nameEditText.text}"
+            greetingTextView.text = "Hello ${nameEditText.text} How are you today?"
         }
     }
 }
